@@ -1,0 +1,40 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Downloaded models and datasets
+**/weights/
+**/pretrained_models/
+**/checkpoints/
+**/data/
+**/datasets/
+*.ckpt
+*.pt
+*.pth
+*.pth.tar
+*.npz
+*.lmdb
+
+# Generated inference and visualization artifacts
+**/output/
+**/outputs/
+**/result/
+**/results/
+**/logs/
+**/pred_vis/
+**/eval_vis*/
+**/hot3d_*/
+
+# Local configuration and temporary files
+.env
+*.env
+*.tmp
+tmp_*/
