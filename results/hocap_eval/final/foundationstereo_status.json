@@ -1,0 +1,10 @@
+{
+  "dataset": "HO-Cap subject_5/20231027_113535",
+  "ego_sensor": "single HoloLens RGB stream",
+  "foundationstereo_checkpoint_ready": true,
+  "foundationstereo_checkpoint": "data/model_weights/foundation_stereo/23-51-11/model_best_bp2.pth",
+  "foundationstereo_run_attempted": false,
+  "reason": "No synchronized head-mounted stereo mate; external RealSense cameras have no useful rectified common field of view with the moving HoloLens camera.",
+  "invalid_shortcut_rejected": "Adjacent video frames are temporal views, not a synchronized stereo pair.",
+  "evaluated_depth_alternative": "Synchronized measured RealSense depth projected into the HoloLens view using official HO-Cap calibration and poses."
+}

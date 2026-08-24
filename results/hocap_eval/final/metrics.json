@@ -1,0 +1,37 @@
+{
+  "dataset": "HO-Cap subject_5/20231027_113535 HoloLens frames 80..143",
+  "frames": 64,
+  "ground_truth_hololens_masks_available": false,
+  "depth_source": "synchronized HO-Cap RealSense depth projected into HoloLens view",
+  "foundationstereo_on_ego_stream": "not applicable: no simultaneous stereo mate",
+  "handflow": {
+    "mean_raw_pixels": 64539.265625,
+    "mean_depth_corrected_pixels": 72193.078125,
+    "recovered_pixels_per_frame": 7653.8125,
+    "raw_vs_depth_iou": 0.8924291169709685,
+    "raw_temporal_iou": 0.7913360724432194,
+    "depth_temporal_iou": 0.8108157394646623,
+    "raw_boundary_alignment": 0.10879841929820791,
+    "depth_boundary_alignment": 0.11465363297492862,
+    "empty_frames_per_side": {
+      "right": 8,
+      "left": 12
+    }
+  },
+  "hawor": {
+    "mean_raw_pixels": 89515.9375,
+    "mean_depth_corrected_pixels": 97038.84375,
+    "recovered_pixels_per_frame": 7522.90625,
+    "raw_vs_depth_iou": 0.91891177772529,
+    "raw_temporal_iou": 0.8281054786658226,
+    "depth_temporal_iou": 0.8386364978939725,
+    "raw_boundary_alignment": 0.1450595447099069,
+    "depth_boundary_alignment": 0.15516928554079984,
+    "empty_frames_per_side": {
+      "right": 0,
+      "left": 3
+    }
+  },
+  "model_agreement_raw_iou": 0.4846342762932572,
+  "model_agreement_depth_iou": 0.5166804123460325
+}
